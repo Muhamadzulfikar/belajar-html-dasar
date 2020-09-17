@@ -1,0 +1,30 @@
+.style-paragraph{
+font-size:24px;
+}
+#style-paragraph-by-id{
+text-decoration:underline;
+}
+.isi{
+border:1px solid #020202;
+background-color:#030303;
+color:white;
+margin-left:0.3cm;
+margin-right:0.3cm;
+margin-top:0.3cm;
+margin-bottom:0.3cm;
+font-family:calibri
+font-size:12pt;
+}
+#my_table{
+font-family:arial, sans-serif;
+border-collapse: collapse;
+width:100%;
+}
+td,th{
+border:1px solid black;
+text-align:left;
+padding:8px;
+}
+tr:nth-child(even){
+background-color: gray;
+}
