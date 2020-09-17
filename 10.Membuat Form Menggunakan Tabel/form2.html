@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width-device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie-edge">
+	<title>formulir </title>
+</head>
+<body style="background-color:#50D5B7;font-size:14pt;font-family:calibri;">
+	<table cellspacing="0" cellpadding="20">
+		<form>
+			<tr>
+				<td><label for="username">Username:</label></td>
+				<td><input type="text" id="username" placeholder="Username" required/><td>
+			</tr>
+			<tr>
+				<td><label for="password">Password:</label></td>
+				<td><input type="password" id="password" placeholder="password" required/></td>
+			</tr>
+			<tr>
+				<td><label for="jenis-kelamin">Jenis Kelamin:</label></td>
+				<td><input type="radio" id="pria" name="jenis-kelamin" checked /><label for="pria">Pria</label>
+				<input type="radio" id="wanita" name="jenis-kelamin"/><label for="wanita">Wanita</label></td>
+			</tr>
+			<tr>
+				<td><label for="hobi">Hobi:</label></td>
+				<td><input type="checkbox" id="menyanyi"/><label for="menyanyi">Menyanyi</label>
+				<input type="checkbox" id="menari"/><label for="menari">Menari</label>
+				<input type="checkbox" id="olahraga"/><label for="olahraga">Olahraga</label></td>
+			</tr>
+			<tr>
+				<td><label for="tempat-tinggal">Tempat Tinggal:</label></td>
+				<td>
+					<select id="tempat-tinggal">
+					<option>Tanjung Balai Karimun</option>
+					<option>Tanjung Pinang</option>
+					<option>Batam</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td><label for="kata-kata">Kata-Kata Motivasi Anda:</label>
+				<td><textarea id="kata-kata"></textarea></td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center"><button type="submit" id="Kirim">Kirim Sekarang</button></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
